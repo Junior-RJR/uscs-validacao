@@ -1,0 +1,141 @@
+.student-data-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #00336600;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .main-logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .document-container {
+    background-color: white;
+    padding: 40px;
+    border: 2px solid #003366;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #003366;
+  }
+  
+  .document-header h2 {
+    font-size: 28px;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .document-header p {
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .document-content {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .certification-text {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  .student-info {
+    margin-bottom: 30px;
+  }
+  
+  .student-info p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  .student-info strong {
+    color: #003366;
+  }
+  
+  .authenticity-code {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #003366;
+    margin-bottom: 20px;
+  }
+  
+  .authenticity-code p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .authenticity-code strong {
+    color: #003366;
+  }
+  
+  .back-button {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #0066cc;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .student-data-container {
+      padding: 10px;
+    }
+  
+    .document-container {
+      padding: 20px;
+    }
+  
+    .document-header h2 {
+      font-size: 24px;
+    }
+  
+    .certification-text,
+    .student-info p {
+      font-size: 14px;
+    }
+  }
+  
