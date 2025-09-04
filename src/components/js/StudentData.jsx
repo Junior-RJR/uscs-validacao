@@ -48,7 +48,7 @@ const StudentData = ({ data, onBack }) => {
             <p>
               <strong>SECRETARIA TÉCNICA</strong>
             </p>
-            <p>São Caetano do Sul, 04 de junho de 2025.</p>
+            <p>São Caetano do Sul, 04 de outubro de 2025.</p>
           </div>
 
           <div className="authenticity-code">

@@ -21,8 +21,8 @@ function App() {
         period: "noturno",
         schedule: "segunda-feira a sexta-feira das 19:20 às 22:50",
         startDate: "01/02/2025",
-        endDate: "30/07/2025",
-        validUntil: "19/07/2025",
+        endDate: "31/12/2025",
+        validUntil: "31/12/2025",
       })
       setIsValidated(true)
     } else {
