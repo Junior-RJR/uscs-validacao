@@ -16,7 +16,7 @@ function App() {
         name: "Sara Vieira da Silva",
         rg: "504849438",
         cpf: "53425520873",
-        semester: "1º semestre de 2025",
+        semester: "2º semestre de 2025",
         course: "Superior de Tecnologia em Marketing",
         period: "noturno",
         schedule: "segunda-feira a sexta-feira das 19:20 às 22:50",
